@@ -23,14 +23,17 @@
             padding-bottom: 50px;
         }
 
-        /* Target the image directly */
-        .logo {
-            width: 250px;
-            margin-bottom: 10px;
-            /* This aligns the left edge of the logo to the left edge of the 800px container */
-            margin-left: calc(50% - 400px); 
-            display: block;
-        }
+        .logo-container {
+                width: 800px; /* Matches your .container width */
+                margin: 0 auto; /* Centers the container itself */
+                padding-bottom: 10px;
+            }
+        
+            .logo {
+                width: 250px;
+                display: block;
+                margin-left: 0; /* Snaps to the left of its container */
+            }
 
         .navbar {
             background: linear-gradient(to bottom, #ffffff 0%, #dcdcdc 50%, #b8b8b8 50%, #999999 100%);
@@ -60,9 +63,9 @@
 </head>
 <body>
 
-    <!-- Logo with class 'logo' and the margin-left applied -->
-    <img src="images/logo.svg" class="logo" alt="DNGUGotE3 Logo">
-
+    <div class="logo-container">
+            <img src="images/logo.svg" class="logo" alt="DNGUGotE3 Logo">
+        </div>
     <div class="container">
         <div class="navbar">
             <a href="https://github.com/petdimveee/DNGUGotE3/tree/main" class="nav-btn">github</a>
