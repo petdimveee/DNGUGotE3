@@ -6,24 +6,22 @@
         body {
             background: #a9c5d3; 
             margin: 0;
-            padding: 40px 0;
+            padding: 20px 0; /* Add top padding to create space from the window edge */
             min-height: 100vh;
-            /* This centers the entire block (logo + container) as one unit */
             display: flex;
             flex-direction: column;
             align-items: center; 
         }
 
-        /* This centers the page and holds the alignment for the logo */
         .page-wrapper {
             width: 800px;
         }
 
+        /* Logo is now flush against the navbar */
         .logo {
             width: 250px;
-            margin-bottom: 10px;
-            /* No margin-left needed because it's inside the 800px wrapper */
             display: block;
+            margin-bottom: 0; /* No space between logo and navbar */
         }
 
         .container {
@@ -41,6 +39,7 @@
             display: flex;
             justify-content: center;
             gap: 15px;
+            border-bottom: 2px solid #555; /* Defines the navbar edge */
         }
 
         .nav-btn {
@@ -74,7 +73,7 @@
             </div>
 
             <div class="content">
-            </div>
+                </div>
         </div>
     </div>
 
