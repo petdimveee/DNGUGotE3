@@ -34,3 +34,20 @@ This project includes a custom launcher, a unique file format for your game save
 
 ## Security & Transparency
 Because this game uses system-level scripting languages for its launcher and save systems, I have provided the full source code here on GitHub. You are encouraged to inspect the code to ensure it meets your security standards before running it.
+
+## ReactOS Compatibility
+**DNGUGotE3** is proudly developed with native compatibility for **ReactOS**. While it also functions on modern Windows, the game’s architecture was specifically designed to run within the ReactOS environment, utilizing standard Batch, VBScript, and AutoHotkey implementations that align with the ReactOS project's goals.
+
+## Key Features
+* **Custom Save System:** A unique file format designed specifically for DNGUGotE3.
+* **Card Visualizer:** Easily show off your progress and characters to other players.
+* **Retro-Inspired Launcher:** A lightweight, custom-built interface to manage your game sessions.
+* **Open Source:** Full transparency—check the code to see how the logic works under the hood.
+* The game is just the `DNGUGotE3.bat` file, you dont need any other files included to play!
+
+## Troubleshooting
+* **Antivirus False Positives:** Because this project uses Batch and AHK scripts for automation, some antivirus software may flag it as suspicious. This is a common false positive for open-source scripts; you can verify the code yourself by reviewing the files in this repository.
+* **Setup Issues:** If the game fails to launch after moving files, simply re-run `setup.bat` to reset your paths.
+
+## License
+This project is provided for educational and entertainment purposes. Please do not re-distribute without permission.
