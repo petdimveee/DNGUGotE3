@@ -1,4 +1,5 @@
-# DA NAPKIN GOD ULTIMATE GAME of the EON III (DNGUGotE3)
+![logo](images/logo.svg)
+## DA NAPKIN GOD ULTIMATE GAME of the EON III (DNGUGotE3)
 
 Welcome to **DNGUGotE3**, a turn-based fighting game built entirely in **Batch**, **VBScript**, and **AutoHotkey**.
 
