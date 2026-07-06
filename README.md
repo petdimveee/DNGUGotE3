@@ -24,7 +24,7 @@ This project includes a custom launcher, a unique file format for your game save
 
 ---
 <p align="center">
-  <a href="https://your-itch-link-here.itch.io/your-game-name" target="_blank">
+  <a href="https://magnado.itch.io/dngg" target="_blank">
     <b>Get DNGUGotE3 on itch.io</b>
   </a>
 </p>
