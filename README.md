@@ -7,7 +7,11 @@ Welcome to **DNGUGotE3**, a turn-based fighting game built entirely in **Batch**
 
 This project includes a custom launcher, a unique file format for your game saves, a card visualizer to show off your save files to others, and a registry script to integrate your custom file format with Windows.
 
-[Click here to visit the game on itch.io](ttps://magnado.itch.io/dngg)
+<p align="center">
+  <a href="https://your-itch-link-here.itch.io/your-game-name">
+    <b>Play DNGUGotE3 on itch.io</b>
+  </a>
+</p>
 ---
 
 ## How to Start
