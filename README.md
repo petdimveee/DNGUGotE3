@@ -23,7 +23,12 @@ This project includes a custom launcher, a unique file format for your game save
 * Please re-run `setup.bat` to update the file paths.
 
 ---
-<iframe frameborder="0" src="https://itch.io/embed/4746258?bg_color=000000&amp;fg_color=0720ff&amp;link_color=de0006&amp;border_color=21a0a2" width="552" height="167"><a href="https://magnado.itch.io/dngg">DNGUGotE3 by Magnado</a></iframe>
+<p align="center">
+  <a href="https://your-itch-link-here.itch.io/your-game-name" target="_blank">
+    <b>Get DNGUGotE3 on itch.io</b>
+  </a>
+</p>
+
 ## Project Structure
 
 | Directory | Description |
