@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.svg" width="300" alt="DNGUGotE3 Logo">
+  <img src="images/logo.svg" width="500" alt="DNGUGotE3 Logo">
 </p>
 ## DA NAPKIN GOD ULTIMATE GAME of the EON III (DNGUGotE3)
 
