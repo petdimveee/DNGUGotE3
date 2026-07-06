@@ -60,6 +60,35 @@
             padding: 40px;
             text-align: left;
         }
+        .custom-btn {
+            /* Set the SVG as the background */
+            background-image: url('button.svg');
+            background-repeat: repeat-x; /* This tiles the middle, keeping corners perfect */
+            background-size: auto 100%;
+            
+            /* Remove default styles */
+            border: none;
+            cursor: pointer;
+            
+            /* Heights must match your SVG height */
+            height: 54.672px; 
+            padding: 0 30px; /* Adjust padding to fit your text */
+            
+            /* Visuals */
+            color: white;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            
+            /* Optional: shadow for the button itself */
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+        
+        .custom-btn:hover {
+            filter: brightness(1.1);
+        }
     </style>
 </head>
 <body>
@@ -77,6 +106,9 @@
             <div class="content">
                 <p>Welcome to DNGUGotE3, a Fighting game mainly in Windows batch (.bat)!</p>
                 <marquee>wow!</marquee>
+                <button class="custom-btn">
+                <span class="btn-text">github</span>
+                </button>
                 </div>
         </div>
     </div>
