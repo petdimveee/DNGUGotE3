@@ -14,22 +14,22 @@
             font-family: Arial, sans-serif;
         }
 
-        /* The container now has no borders, just big soft shadows */
         .container {
             background-color: #ffffff;
             width: 800px;
             min-height: 100vh;
-            margin-top: 150px; /* Space for the logo to float above */
+            margin-top: 50px; /* Adjusted to sit nicely under the logo */
             box-shadow: 0 0 50px 10px rgba(0,0,0,0.4);
             padding-bottom: 50px;
         }
 
+        /* Target the image directly */
         .logo {
             width: 250px;
-            /* This centers the logo relative to the container, then pushes it to the left */
-            margin: 0 auto 10px auto;
-            display: block;
+            margin-bottom: 10px;
+            /* This aligns the left edge of the logo to the left edge of the 800px container */
             margin-left: calc(50% - 400px); 
+            display: block;
         }
 
         .navbar {
@@ -60,9 +60,8 @@
 </head>
 <body>
 
-    <div class="logo">
-        <img src="images/logo.svg" width="100%" alt="DNGUGotE3 Logo">
-    </div>
+    <!-- Logo with class 'logo' and the margin-left applied -->
+    <img src="images/logo.svg" class="logo" alt="DNGUGotE3 Logo">
 
     <div class="container">
         <div class="navbar">
@@ -72,10 +71,7 @@
         </div>
 
         <div class="content">
-            <h1></h1>
-            
-            
-
+            <!-- Add your content here -->
         </div>
     </div>
 
