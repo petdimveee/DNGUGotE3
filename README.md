@@ -51,3 +51,6 @@ Because this game uses system-level scripting languages for its launcher and sav
 
 ## License
 This project is provided for educational and entertainment purposes. Please do not re-distribute without permission.
+
+## ⚠️ Known Issues
+* **Windows Compatibility:** The **Card Visualizer** character display currently has a rendering issue on Windows. While the feature is fully functional and stable on **ReactOS**, it may not display correctly on modern Windows versions. This is currently under investigation.
