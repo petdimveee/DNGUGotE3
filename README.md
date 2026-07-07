@@ -13,6 +13,7 @@ This project includes a custom launcher, a unique file format for your game save
     <b>Get DNGUGotE3 on itch.io</b>
   </a>
 </p>
+[![Built for ReactOS](https://img.shields.io/badge/-Built%20for%20ReactOS-0088CC?logo=reactos)](https://reactos.org)
 ---
 
 ## How to Start
