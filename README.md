@@ -50,7 +50,7 @@ This project includes a custom launcher, a unique file format for your game save
 Because this game uses system-level scripting languages for its launcher and save systems, I have provided the full source code here on GitHub. You are encouraged to inspect the code to ensure it meets your security standards before running it.
 
 ## ReactOS Compatibility
-**DNGUGotE3** is proudly developed with native compatibility for **ReactOS**. While it also functions on modern Windows, the game’s architecture was specifically designed to run within the ReactOS environment, utilizing standard Batch, VBScript, and AutoHotkey implementations that align with the ReactOS project's goals.
+**DNGUGotE3** is proudly developed with native compatibility for **ReactOS™**. While it also functions on modern Windows, the game’s architecture was specifically designed to run within the ReactOS environment, utilizing standard Batch, VBScript, and AutoHotkey implementations that align with the ReactOS project's goals.
 
 ## Key Features
 * **Custom Save System:** A unique file format designed specifically for DNGUGotE3.
