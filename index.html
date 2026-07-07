@@ -123,87 +123,84 @@
                 <hr/>
                 <h3>README:</h3>
                 <hr/>
-                <p align="center">
-  <img src="images/logo.svg" width="500" alt="DNGUGotE3 Logo">
-</p>
 
-<h3 id="da-napkin-god-ultimate-game-of-the-eon-iii-dngugote3-">DA NAPKIN GOD ULTIMATE GAME of the EON III (DNGUGotE3)</h3>
-<p>Welcome to <strong>DNGUGotE3</strong>, a turn-based fighting game built entirely in <strong>Batch</strong>, <strong>VBScript</strong>, and <strong>AutoHotkey</strong>.</p>
-<p>This project includes a custom launcher, a unique file format for your game saves, a card visualizer to show off your save files to others, and a registry script to integrate your custom file format with Windows.</p>
-<p><a href="https://magnado.itch.io/dngg" target="_blank">
-  <img src="https://img.shields.io/badge/Get%20on-Itch.io-fa5c5c?logo=itch.io" alt="Get On Itch.io"/>
-</a></p>
-<p><a href="https://reactos.org">
-  <img src="https://img.shields.io/badge/-Built%20for%20ReactOS-0088CC?logo=reactos" alt="Built for ReactOS"/>
-</a></p>
-<hr>
-<h2 id="how-to-start">How to Start</h2>
-<h3 id="first-time-launch">First-time Launch</h3>
-<ol>
-<li>Double-click <code>setup.bat</code> in the root folder.</li>
-<li>Wait for the installation to complete.</li>
-<li>Use the generated desktop shortcut, or navigate to <code>/game-files/</code> and run <code>open-l.vbs</code>.</li>
-</ol>
-<h3 id="returning-players">Returning Players</h3>
-<ul>
-<li>Run <code>open-l.vbs</code> from the <code>/game-files/</code> directory, or use your desktop shortcut to access the launcher.</li>
-</ul>
-<h3 id="moved-the-game-files-">Moved the game files?</h3>
-<ul>
-<li>Please re-run <code>setup.bat</code> to update the file paths.</li>
-</ul>
-<hr>
-<h2 id="project-structure">Project Structure</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Directory</th>
-<th style="text-align:left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><code>/game-files/</code></td>
-<td style="text-align:left">Core game logic and executables.</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>/game-files/icons/</code></td>
-<td style="text-align:left">Game and file type icons (<code>holytext.ico</code>, <code>dngugote3.ico</code>).</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>/game-files/saves/</code></td>
-<td style="text-align:left">Your personal save files.</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>/game-files/other/</code></td>
-<td style="text-align:left">Utility scripts, including the registry configuration.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h2 id="security-transparency">Security &amp; Transparency</h2>
-<p>Because this game uses system-level scripting languages for its launcher and save systems, I have provided the full source code here on GitHub. You are encouraged to inspect the code to ensure it meets your security standards before running it.</p>
-<h2 id="reactos-compatibility">ReactOS Compatibility</h2>
-<p><strong>DNGUGotE3</strong> is proudly developed with native compatibility for <strong>ReactOS™</strong>. While it also functions on modern Windows, the game’s architecture was specifically designed to run within the ReactOS environment, utilizing standard Batch, VBScript, and AutoHotkey implementations that align with the ReactOS project&#39;s goals.</p>
-<h2 id="key-features">Key Features</h2>
-<ul>
-<li><strong>Custom Save System:</strong> A unique file format designed specifically for DNGUGotE3.</li>
-<li><strong>Card Visualizer:</strong> Easily show off your progress and characters to other players.</li>
-<li><strong>Retro-Inspired Launcher:</strong> A lightweight, custom-built interface to manage your game sessions.</li>
-<li><strong>Open Source:</strong> Full transparency—check the code to see how the logic works under the hood.</li>
-<li>The game is just the <code>DNGUGotE3.bat</code> file, you dont need any other files included to play!</li>
-</ul>
-<h2 id="troubleshooting">Troubleshooting</h2>
-<ul>
-<li><strong>Antivirus False Positives:</strong> Because this project uses Batch and AHK scripts for automation, some antivirus software may flag it as suspicious. This is a common false positive for open-source scripts; you can verify the code yourself by reviewing the files in this repository.</li>
-<li><strong>Setup Issues:</strong> If the game fails to launch after moving files, simply re-run <code>setup.bat</code> to reset your paths.</li>
-</ul>
-<h2 id="license">License</h2>
-<p>This project is provided for educational and entertainment purposes. Please do not re-distribute without permission.</p>
-<h2 id="known-issues">Known Issues</h2>
-<ul>
-<li><strong>Windows Compatibility:</strong> The <strong>Card Visualizer</strong> character display currently has a rendering issue on Windows. While the feature is fully functional and stable on <strong>ReactOS</strong>, it may not display correctly on modern Windows versions. This is currently under investigation.</li>
-</ul>
+        <h3 id="da-napkin-god-ultimate-game-of-the-eon-iii-dngugote3-">DA NAPKIN GOD ULTIMATE GAME of the EON III (DNGUGotE3)</h3>
+        <p>Welcome to <strong>DNGUGotE3</strong>, a turn-based fighting game built entirely in <strong>Batch</strong>, <strong>VBScript</strong>, and <strong>AutoHotkey</strong>.</p>
+        <p>This project includes a custom launcher, a unique file format for your game saves, a card visualizer to show off your save files to others, and a registry script to integrate your custom file format with Windows.</p>
+        <p><a href="https://magnado.itch.io/dngg" target="_blank">
+          <img src="https://img.shields.io/badge/Get%20on-Itch.io-fa5c5c?logo=itch.io" alt="Get On Itch.io"/>
+        </a></p>
+        <p><a href="https://reactos.org">
+          <img src="https://img.shields.io/badge/-Built%20for%20ReactOS-0088CC?logo=reactos" alt="Built for ReactOS"/>
+        </a></p>
+        <hr>
+        <h2 id="how-to-start">How to Start</h2>
+        <h3 id="first-time-launch">First-time Launch</h3>
+        <ol>
+        <li>Double-click <code>setup.bat</code> in the root folder.</li>
+        <li>Wait for the installation to complete.</li>
+        <li>Use the generated desktop shortcut, or navigate to <code>/game-files/</code> and run <code>open-l.vbs</code>.</li>
+        </ol>
+        <h3 id="returning-players">Returning Players</h3>
+        <ul>
+        <li>Run <code>open-l.vbs</code> from the <code>/game-files/</code> directory, or use your desktop shortcut to access the launcher.</li>
+        </ul>
+        <h3 id="moved-the-game-files-">Moved the game files?</h3>
+        <ul>
+        <li>Please re-run <code>setup.bat</code> to update the file paths.</li>
+        </ul>
+        <hr>
+        <h2 id="project-structure">Project Structure</h2>
+        <table>
+        <thead>
+        <tr>
+        <th style="text-align:left">Directory</th>
+        <th style="text-align:left">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td style="text-align:left"><code>/game-files/</code></td>
+        <td style="text-align:left">Core game logic and executables.</td>
+        </tr>
+        <tr>
+        <td style="text-align:left"><code>/game-files/icons/</code></td>
+        <td style="text-align:left">Game and file type icons (<code>holytext.ico</code>, <code>dngugote3.ico</code>).</td>
+        </tr>
+        <tr>
+        <td style="text-align:left"><code>/game-files/saves/</code></td>
+        <td style="text-align:left">Your personal save files.</td>
+        </tr>
+        <tr>
+        <td style="text-align:left"><code>/game-files/other/</code></td>
+        <td style="text-align:left">Utility scripts, including the registry configuration.</td>
+        </tr>
+        </tbody>
+        </table>
+        <hr>
+        <h2 id="security-transparency">Security &amp; Transparency</h2>
+        <p>Because this game uses system-level scripting languages for its launcher and save systems, I have provided the full source code here on GitHub. You are encouraged to inspect the code to ensure it meets your security standards before running it.</p>
+        <h2 id="reactos-compatibility">ReactOS Compatibility</h2>
+        <p><strong>DNGUGotE3</strong> is proudly developed with native compatibility for <strong>ReactOS™</strong>. While it also functions on modern Windows, the game’s architecture was specifically designed to run within the ReactOS environment, utilizing standard Batch, VBScript, and AutoHotkey implementations that align with the ReactOS project&#39;s goals.</p>
+        <h2 id="key-features">Key Features</h2>
+        <ul>
+        <li><strong>Custom Save System:</strong> A unique file format designed specifically for DNGUGotE3.</li>
+        <li><strong>Card Visualizer:</strong> Easily show off your progress and characters to other players.</li>
+        <li><strong>Retro-Inspired Launcher:</strong> A lightweight, custom-built interface to manage your game sessions.</li>
+        <li><strong>Open Source:</strong> Full transparency—check the code to see how the logic works under the hood.</li>
+        <li>The game is just the <code>DNGUGotE3.bat</code> file, you dont need any other files included to play!</li>
+        </ul>
+        <h2 id="troubleshooting">Troubleshooting</h2>
+        <ul>
+        <li><strong>Antivirus False Positives:</strong> Because this project uses Batch and AHK scripts for automation, some antivirus software may flag it as suspicious. This is a common false positive for open-source scripts; you can verify the code yourself by reviewing the files in this repository.</li>
+        <li><strong>Setup Issues:</strong> If the game fails to launch after moving files, simply re-run <code>setup.bat</code> to reset your paths.</li>
+        </ul>
+        <h2 id="license">License</h2>
+        <p>This project is provided for educational and entertainment purposes. Please do not re-distribute without permission.</p>
+        <h2 id="known-issues">Known Issues</h2>
+        <ul>
+        <li><strong>Windows Compatibility:</strong> The <strong>Card Visualizer</strong> character display currently has a rendering issue on Windows. While the feature is fully functional and stable on <strong>ReactOS</strong>, it may not display correctly on modern Windows versions. This is currently under investigation.</li>
+        </ul>
 
                 
                 </div>
