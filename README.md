@@ -12,9 +12,11 @@ This project includes a custom launcher, a unique file format for your game save
 <a href="https://magnado.itch.io/dngg" target="_blank">
   <img src="https://img.shields.io/badge/Get%20on-Itch.io-fa5c5c?logo=itch.io" alt="Get On Itch.io"/>
 </a>
+
 <a href="https://reactos.org">
   <img src="https://img.shields.io/badge/-Built%20for%20ReactOS-0088CC?logo=reactos" alt="Built for ReactOS"/>
 </a>
+
 ---
 
 ## How to Start
